@@ -7,7 +7,7 @@ use Carbon\Carbon;
 use Braintree\Plan;
 use LogicException;
 use InvalidArgumentException;
-use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model;
 use Braintree\Subscription as BraintreeSubscription;
 
 class Subscription extends Model
